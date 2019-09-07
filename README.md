@@ -13,6 +13,6 @@
   
 * 실행 방법
   ```
-  $javac SelectionSort.java
-  $java -Xmx128M -Xms16M SelectionSort
+  $javac 01_selectionSort.java
+  $java -Xmx128M -Xms16M 01_selectionSort.java
   ```
