@@ -52,6 +52,7 @@
     > cf. 두번의 반복문이 들어갈 경우 : 복잡도 == O(N^2)
   * **왼쪽 숫자가 오른쪽 숫자보다 클 때만** 이라는 조건을 갖고있기에 앞서 공부한 O(N^2) 복잡도를 지니고 있는 3가지의 알고리즘 중에 제일 효율적입니다.
     > cf. 데이터가 거의 정렬된 상태라면 어떤 알고리즘보다 빠르다는 특징을 갖고있습니다.
+    > cf. 횟수에 의한 반복문(for) vs 조건에 의한 반복문(while) 차이가 가장 크다 생각합니다.
    * 기존
    ```java
    for(int j=0;j<array.length;j++){
@@ -66,6 +67,8 @@
        }
    }
    ```
-  
+* 돌아가는 로직 그림(?)
+  <img src="https://user-images.githubusercontent.com/51875059/64487172-ef556800-d271-11e9-8a4a-11de246b1f53.PNG" />
+
 * WEB IDE 실행 방법
   * codingground : [바로 Execute 실행하기](http://tpcg.io/zMtKbO)
