@@ -75,3 +75,33 @@
 
 * WEB IDE 실행 방법
   * codingground : [바로 Execute 실행하기](http://tpcg.io/zMtKbO)
+  
+<br>
+<br>
+
+<h1>04. Quick sort (퀵 정렬)</h1>
+<ul>
+ <li>특징</li>
+  <ul>
+   <li>분할 정보 알고리즘</li>
+   <ul>
+    <li>피벗(임의이 기준)값 기준으로 나눈 뒤 재귀함수와 반복문을 이용해 정렬 진행합니다.</li>
+    <li>배열의 원소들을 나누어 계산 한다는 점에서 빠른 정렬 알고리즘이라 칭합니다.</li>
+   </ul>
+   <li>평균적으로 시간 복잡도는 **O(N*logN)** 값을 지니고 있습니다.</li>
+   <li>최악의 경우 시간 복잡도는 **O(N^2)** 값에 가깝습니다.</li>
+   <ul>
+    <li>cf. 이미 정렬이 되어있는 배열일 때 비효율적인 알고리즘입니다.</li>
+   </ul>
+   <br></ul>
+  <li>처리하는 방식 (예제)</li>
+   <img src="https://user-images.githubusercontent.com/51875059/64632826-dcd75c00-d434-11e9-80c0-4f6b914d204e.PNG" />
+   <br>
+  <li>순서도</li>
+   <img src="https://user-images.githubusercontent.com/51875059/64632702-8ec25880-d434-11e9-95cc-f52603961d40.png" />
+   <br>
+  <li>WEB IDE 실행 방법</li>
+   <ul><li>codingground : [바로 Execute 실행하기](http://tpcg.io/G2Cygf)</li></ul>
+  <li>공부 정리 자료</li>
+   <ul><li>개인 Tistory : (https://dabo-dev.tistory.com/16)</li></ul>
+</ul>
